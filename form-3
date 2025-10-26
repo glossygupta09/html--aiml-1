@@ -8,7 +8,7 @@
 <body>
     <fieldset>
         <h1 align="center">Student Registration Form</h1>
-        <form action="./submit.html"  name="Student Registration Form"  target="_blank" method="post"  >
+        <form name="Registration Form"  target="_blank" method="post"  >
          <label for="name">Full Name:</label>
          <input type="text" id="name" name="name" placeholder="Enter your full name" required>
          <br><br>
@@ -26,15 +26,6 @@
          <input type="radio" id="other" name="gender" value="other" required>
          <label for="other">Other</label>
          <br><br>
-         <label for="select">Course</label>
-         <select name="select" id="select">
-         <option>--select course--</option>
-         <option value="B.Tech">B.Tech</option>
-         <option value="BCA">BCA</option>
-         <option value="MBA">MBA</option>
-         <option value="MCA">MCA</option>
-         </select>
-         <br><br>
          <label for="telephone">Contact No.:</label>
             <input type="telephone" id="telephone" name="telephone" placeholder="Enter phone number" required>
             <br><br>
@@ -45,7 +36,7 @@
             <input type="reset" value="Clear">
         </form>
     </fieldset>
-        <p align="center">&copy;2025 Student Registration Portal</p>
+        <p>thnkuu</p>
     
 </body>
 </html>
